@@ -50,7 +50,7 @@ app.use('', express.static('public', { 'index': false }), serveIndex('public', {
 
 let server = http.createServer(app);
 
-const serverPort = 1509;
+const serverPort = 1519;
 server.listen(serverPort);
 console.log('listening on port', serverPort)
 
